@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="pt-BR" data-lang="pt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<!-- @head -->
+<title>Timothée Campos</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Timothée Campos, engenheiro de software em São Paulo.">
+<meta name="theme-color" content="#0f0c10">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=Geist:wght@300..600&family=Geist+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="css/style.css">
+<!-- @/head -->
+</head>
+<body>
+<!-- @body -->
+<div id="stage" aria-hidden="true">
+  <div class="fb"><img src="assets/adam.jpg" alt="" width="1920" height="964"><img src="assets/venus.jpg" alt="" width="1920" height="1206"></div>
+</div>
+<svg id="lg-defs" width="0" height="0" aria-hidden="true" focusable="false"></svg>
+
+<header class="nav lg" id="nav" data-lg="always">
+  <a class="mark" href="#top" aria-label="Início / Home">T<span>·</span>C</a>
+  <nav class="nav__links" aria-label="Seções / Sections">
+    <span class="nav__blob" aria-hidden="true"></span>
+    <a href="#sobre" data-i18n="nav.about">Sobre</a>
+    <a href="#percurso" data-i18n="nav.journey">Percurso</a>
+    <a href="#contato" data-i18n="nav.contact">Contato</a>
+  </nav>
+  <div class="seg" role="group" aria-label="Idioma / Language">
+    <button type="button" data-set="pt" aria-pressed="true">PT</button>
+    <button type="button" data-set="en" aria-pressed="false">EN</button>
+    <span class="seg__thumb lg" data-lg="always" data-refract="44" data-blur="0.4" aria-hidden="true"></span>
+  </div>
+</header>
+
+<main id="top">
+  <svg id="trail" aria-hidden="true"></svg>
+
+  <!-- Sala I -->
+  <section class="room hero" aria-labelledby="nm">
+    <span class="room__num" aria-hidden="true">I</span>
+    <div class="room__inner">
+      <div class="hero__text">
+        <p class="eyebrow" data-i18n="hero.eyebrow">Sala I · A centelha</p>
+        <h1 class="name sv" id="nm"><span class="line">Timothée</span> <span class="line">Campos</span></h1>
+        <p class="lede" data-i18n="hero.lede">Engenheiro de software em São Paulo. Gosto do ponto exato onde <em>a ideia encosta no código</em>.</p>
+        <div class="cv">
+          <a class="btn lg gold mag" data-lg="always" data-cv href="assets/curriculo-timothee-campos-pt.pdf" download>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 19.5h14"/></svg>
+            <span data-i18n="cv.download">Baixar currículo</span>
+          </a>
+        </div>
+      </div>
+      <aside class="label lg ex" aria-label="Etiqueta da obra / Wall label">
+        <p class="label__title">Timothée Campos</p>
+        <p class="label__sub" data-i18n="label.sub">Brasileiro · São Paulo, SP</p>
+        <dl>
+          <dt data-i18n="label.work">Obra</dt><dd data-i18n="label.workv">Engenharia de software, 2025</dd>
+          <dt data-i18n="label.medium">Técnica</dt><dd data-i18n="label.mediumv">Java, Kotlin e React sobre AWS</dd>
+          <dt data-i18n="label.coll">Acervo</dt><dd>Itaú Unibanco</dd>
+        </dl>
+        <p class="label__inv"><span>Inv. TC-2026-001</span><span data-i18n="label.oil">Óleo sobre código</span></p>
+      </aside>
+    </div>
+    <a class="scrollcue" href="#sobre" aria-label="Rolar / Scroll"><span></span></a>
+  </section>
+
+  <!-- Sala II -->
+  <section class="room about" id="sobre" aria-labelledby="h-about">
+    <span class="room__num" aria-hidden="true">II</span>
+    <div class="room__inner">
+      <figure class="art rv tilt" id="art">
+        <div class="lamp" aria-hidden="true"><span class="lamp__bar"></span><span class="lamp__arm"></span></div>
+        <div class="frame">
+          <span class="ros tl"></span><span class="ros tr"></span><span class="ros bl"></span><span class="ros br"></span>
+          <div class="frame__liner">
+            <div class="frame__sight">
+              <img src="assets/me.jpg" alt="Retrato de Timothée Campos" data-i18n-alt="about.alt" width="1200" height="1600" decoding="async">
+              <span class="frame__glare"></span>
+            </div>
+          </div>
+        </div>
+        <span class="lamp__cone" aria-hidden="true"></span>
+        <figcaption class="plaque" data-i18n="about.plaque">Retrato do artista, 2026</figcaption>
+      </figure>
+      <div class="about-card lg rv" data-d="140">
+        <p class="eyebrow" data-i18n="about.eyebrow">Sala II · Sobre</p>
+        <h2 class="sv" id="h-about" data-i18n="about.title">Da interface ao Terraform, de ponta a ponta.</h2>
+        <p data-i18n="about.p1">Construo produtos inteiros: tela, API, dados e nuvem. Já fiz uma plataforma de saúde usada por 90 mil pessoas e hoje desligo, com cuidado, sistemas bancários que cumpriram seu ciclo.</p>
+        <p data-i18n="about.p2">Foco, precisão e uma queda por coisas bem acabadas, no código e fora dele.</p>
+        <ul class="chips">
+          <li>Java</li><li>Kotlin</li><li>React</li><li>TypeScript</li><li>AWS</li><li>Terraform</li><li>Datadog</li><li data-i18n="about.a11y">Acessibilidade</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sala III -->
+  <section class="room prov" id="percurso" aria-labelledby="h-prov">
+    <span class="room__num" aria-hidden="true">III</span>
+    <div class="room__inner">
+      <div class="prov-head">
+        <div>
+          <p class="eyebrow" data-i18n="prov.eyebrow">Sala III · Proveniência</p>
+          <h2 class="sv" id="h-prov" data-i18n="prov.title">Por onde esta obra passou</h2>
+        </div>
+        <p class="prov-note" data-i18n="prov.note">Nos museus, a proveniência registra cada lugar por onde uma peça passou. Esta é a minha.</p>
+      </div>
+      <ol class="stops">
+        <li class="stop lg rv tilt" style="--c: var(--gold)">
+          <span class="yr">2023–2025</span>
+          <h3>Fatec</h3>
+          <p data-i18n="s.fatec">Tecnólogo em Desenvolvimento de Software Multiplataforma.</p>
+          <span class="pin">São Paulo, SP</span>
+        </li>
+        <li class="stop lg rv tilt" style="--c: var(--rose)" data-d="90">
+          <span class="yr">2024–2025</span>
+          <h3>Itaú · íon</h3>
+          <p data-i18n="s.ion">Análise de investimentos. Projeto com mais de R$ 2 mi de economia.</p>
+          <span class="pin">São Paulo, SP</span>
+        </li>
+        <li class="stop lg rv tilt" style="--c: var(--lapis)" data-d="180">
+          <span class="yr">2025</span>
+          <h3>Harvard Aspire Leaders</h3>
+          <p data-i18n="s.harvard">Programa de liderança de 9 semanas.</p>
+          <span class="pin">Online</span>
+        </li>
+        <li class="stop lg rv tilt" style="--c: var(--rose)" data-d="270">
+          <span class="yr">2025</span>
+          <h3>MIT Hackathon Medicine</h3>
+          <p data-i18n="s.mit">Projeto sobre doença hepática metabólica (MASH).</p>
+          <span class="pin">Einstein, São Paulo</span>
+        </li>
+        <li class="stop lg rv tilt" style="--c: var(--sea)">
+          <span class="yr">2025–2026</span>
+          <h3 data-i18n="s.health.t">Itaú · Pessoas &amp; Saúde</h3>
+          <p data-i18n="s.health">Plataforma de saúde para 90 mil colaboradores.</p>
+          <span class="pin">São Paulo, SP</span>
+        </li>
+        <li class="stop lg rv tilt now" data-d="90">
+          <span class="yr" data-i18n="s.baas.y">2026 · agora</span>
+          <h3>Itaú · Banking as a Service</h3>
+          <p data-i18n="s.baas">Descomissionamento seguro de uma plataforma bancária.</p>
+          <span class="pin">São Paulo, SP</span>
+        </li>
+        <li class="stop lg rv tilt" style="--c: var(--gold)" data-d="180">
+          <span class="yr">2026–2027</span>
+          <h3>FAAP</h3>
+          <p data-i18n="s.faap">Pós-graduação em IA aplicada a negócios.</p>
+          <span class="pin">São Paulo, SP</span>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Sala IV -->
+  <section class="room contact" id="contato" aria-labelledby="h-contact">
+    <span class="room__num" aria-hidden="true">IV</span>
+    <div class="room__inner">
+      <div class="contact-card lg rv">
+        <p class="eyebrow" data-i18n="contact.eyebrow">Sala IV · Saída</p>
+        <h2 class="sv" id="h-contact" data-i18n="contact.title">Vamos conversar<span class="dot">.</span></h2>
+        <ul class="index">
+          <li style="--i:0">
+            <button type="button" class="row" id="copy-mail">
+              <span class="row__k" data-i18n="contact.k.mail">E-mail</span>
+              <span class="row__v" id="mail">timothee.campos@icloud.com</span>
+              <span class="row__a"><span id="copy-label" data-i18n="contact.copy">Copiar</span></span>
+            </button>
+          </li>
+          <li style="--i:1">
+            <a class="row" href="https://www.linkedin.com/in/thempos" target="_blank" rel="noopener">
+              <span class="row__k">LinkedIn</span>
+              <span class="row__v">linkedin.com/in/thempos</span>
+              <span class="row__a" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+            </a>
+          </li>
+          <li style="--i:2">
+            <a class="row" href="https://github.com/thempos" target="_blank" rel="noopener">
+              <span class="row__k">GitHub</span>
+              <span class="row__v">github.com/thempos</span>
+              <span class="row__a" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+            </a>
+          </li>
+          <li style="--i:3">
+            <a class="row" data-cv href="assets/curriculo-timothee-campos-pt.pdf" download>
+              <span class="row__k" data-i18n="contact.k.cv">Currículo</span>
+              <span class="row__v" data-i18n="contact.cv">PDF em português</span>
+              <span class="row__a down" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 5v13m0 0-5.5-5.5M12 18l5.5-5.5"/></svg></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <span data-i18n="foot.end">Fim da exposição</span>
+  <span aria-hidden="true">·</span>
+  <span>© 2026 Timothée Campos</span>
+  <span aria-hidden="true">·</span>
+  <span data-i18n="foot.made">Feito à mão em São Paulo</span>
+</footer>
+<div id="ghosts" aria-hidden="true"></div>
+
+<script src="js/core.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/glass.js"></script>
+<script src="js/gallery.js"></script>
+<script src="js/trail.js"></script>
+<script src="js/motion.js"></script>
+<script src="js/main.js"></script>
+<!-- @/body -->
+</body>
+</html>
