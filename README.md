@@ -2,19 +2,6 @@
 
 Site estático (HTML, CSS e JavaScript puros, sem build e sem dependências), pronto para o GitHub Pages.
 
-## Publicar no GitHub Pages
-1. Crie um repositório (por exemplo `thempos.github.io`) e envie todo o conteúdo desta pasta.
-2. Em **Settings → Pages**, escolha **Deploy from a branch**, branch `main`, pasta `/ (root)`.
-3. Em um ou dois minutos o site fica no ar em `https://thempos.github.io`.
-
-Para testar no computador, rode um servidor local na pasta (o WebGL não carrega imagens via `file://`):
-
-```
-python3 -m http.server 8000
-```
-
-e abra `http://localhost:8000`.
-
 ## Estrutura
 | Arquivo | O que faz |
 | --- | --- |
